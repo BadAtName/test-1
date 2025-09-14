@@ -19,6 +19,41 @@
   }
 }
 
+@layer components{
+  .logo{
+    font-family: Courier;
+    font-weight: 800;
+    font-size: 50px;
+    color: #f7374f;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+  }
+  .wrapper{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    line-height: 50px;
+    top: 100px;
+    background:#F4F8D3 ;
+    z-index: 1;
+    border-bottom: 1px solid #adadad;
+    text-align: center;
+    align-items: center;
+  }
+  .shit{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+    text-decoration: none; 
+    float: right;
+  }
+  .nig{
+    float: right;
+  }
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
