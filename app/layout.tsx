@@ -16,15 +16,13 @@ export default function RootLayout({
     <html lang="en">
 <body>
       <div className="wrapper">
-        <div><a className="logo m-1 " href="/">SEDULURGEN</a></div>
-          <div className="nig">
-            <ul className="list-none m-0 p-0 overflow-hidden float-right">
-                <li className="float-right"><a className="shit" href="/value">Value</a></li>
-                <li className="float-right"><a className="shit" href="/artikel">Article</a></li>
-                <li className="float-right"><a className="shit" href="/programs">Programs</a></li>    
-                <li className="float-right"><a className="shit" href="/about">About Us</a></li>
-           </ul>
-        </div>
+        <a className="logo" href="/">SEDULURGEN</a>
+        <div className="nig">
+            <a className="shit" href="/value">Value</a>
+            <a className="shit" href="/artikel">Article</a>
+            <a className="shit" href="/programs">Programs</a>  
+            <a className="shit" href="/about">About Us</a>
+            </div>
       </div>
 
     <div className="h-50px"></div>
