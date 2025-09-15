@@ -48,8 +48,6 @@
     text-align: center;
     align-items: center;
     padding: 0px 10px 0px 10px;
-    /* text-decoration: none;  */
-    /* text-decoration: underline; */
   }
   .shit:hover{
     text-decoration: underline;
@@ -62,6 +60,32 @@
     padding: 0px 10px 0px 10px;
     align-items: center;
   }
+  .comunity_button{
+    width: 17%;
+    position: fixed;
+    font-family: 'comic sans ms';
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #9a9a9a;
+    border-radius: 20px;
+    bottom: 5%;
+    right: 2%;
+    z-index: 2;
+    color: #000;
+  }
+
+ .comunity_button:hover{
+    background-color: #dddd;
+    border-radius: 20px;
+  }
+
+.com_ul{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: #000;
+  } 
 }
 
 body {
@@ -69,3 +93,4 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
