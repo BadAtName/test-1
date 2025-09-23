@@ -18,9 +18,9 @@ export default function RootLayout({
     <div className="wrapper">
       <a className="logo" href="/">SEDULURGEN</a>
         <div className="nig">
-            <a className="shit" href="/value">Value</a>
-            <a className="shit" href="/artikel">Article</a>
-            <a className="shit" href="/programs">Programs</a>  
+            <a className="shit" href="/sejarah">Sejarah</a>
+            <a className="shit" href="/nilai">Nilai</a>
+            <a className="shit" href="/quiz">Quiz</a>  
             <a className="shit" href="/about">About Us</a>
         </div>
     </div>
