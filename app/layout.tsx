@@ -26,22 +26,31 @@ export default function RootLayout({
     </div>
 
     <div className="comunity_button">
-                <a href="https://chat.whatsapp.com/JQqLhR7Wx8e5cABlcMW8He">
-                <ul className="com_ul">
-                    <Image 
-                      src="/waigger.svg"
-                      width={40}
-                      height={40}
-                      alt="whatsapp logo"
-                      className="px-2 py-2"
-                    />
-                    <h3 className="font-bold">JOIN KOMUNITAS</h3>
-                </ul>
-                </a>
-            </div>
-    <div className="h-16"></div>
+      <a href="https://chat.whatsapp.com/JQqLhR7Wx8e5cABlcMW8He">
+        <ul className="com_ul">
+          <Image 
+            src="/waigger.svg"
+            width={40}
+            height={40}
+            alt="whatsapp logo"
+            className="px-2 py-2"
+          />
+          <h3 className="font-bold">JOIN KOMUNITAS</h3>
+        </ul>
+      </a>
+    </div>
+    <div className="h-[70px]"></div>
         {children}
-      </body>
+    <footer style={{
+      marginTop: "-10.5px",
+      backgroundColor: "lightblue",
+      padding: "1rem",
+      position:"relative",
+      display: "flex",
+    }}>
+      <a className="logo text-3xl">SEDULURGEN</a>
+    </footer>
+</body>
   </html>
   );
 }
